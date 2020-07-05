@@ -2,6 +2,9 @@
 Projeto integrador do 2º período de Análise e Desenvolvimento de Sistemas, Faculdade de Tecnologia de São José dos Campos.
 Este é um projeto da parceria entre a FATEC de São José dos Campos e a SPC Brasil.
 
+### Prévia:
+![previa](https://github.com/IsraelAugusto0110/PI_ADS_2Sem/blob/Entrega-Final/Ignorar/previa.gif)
+
 ---
 #### Desenvolvedores:  
 [*Wesley Dias (PO)*](https://github.com/WeDias)  
