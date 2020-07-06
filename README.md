@@ -5,6 +5,8 @@ Este é um projeto da parceria entre a FATEC de São José dos Campos e a SPC Br
 ### Prévia:
 ![previa](https://github.com/IsraelAugusto0110/PI_ADS_2Sem/blob/Entrega-Final/Ignorar/previa.gif)
 
+# Atualizar
+
 ---
 #### Desenvolvedores:  
 [*Wesley Dias (PO)*](https://github.com/WeDias)  
