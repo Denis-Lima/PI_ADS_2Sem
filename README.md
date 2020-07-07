@@ -23,8 +23,8 @@ O programa contará também com um sistema em que o usuário terá a possibilida
 
 [*Wesley Dias (PO)*](https://github.com/WeDias)  
 [*Israel Augusto (MASTER)*](https://github.com/IsraelAugusto0110)   
-[*Natalia Biscaro*](https://github.com/NataliaBiscaro) *https://www.linkedin.com/in/nataliabiscaro/*
 [*Denis Lima*](https://github.com/Denis-Lima)  
+[*Natalia Biscaro*](https://github.com/NataliaBiscaro) 
 [*Euclides Rezende*](https://github.com/euclas)
 
 
