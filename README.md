@@ -24,4 +24,5 @@ O programa contará também com um sistema em que o usuário terá a possibilida
 [*Israel Augusto (MASTER)*](https://github.com/IsraelAugusto0110)   
 [*Denis Lima*](https://github.com/Denis-Lima)  
 [*Natalia Biscaro*](https://github.com/NataliaBiscaro) (https://www.linkedin.com/in/nataliabiscaro/)
+
 [*Euclides Rezende*](https://github.com/euclas)
