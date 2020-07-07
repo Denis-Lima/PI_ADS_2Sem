@@ -27,7 +27,7 @@ O programa contará também com um sistema em que o usuário terá a possibilida
 
 [*Denis Lima*](https://github.com/Denis-Lima)  
 
-[*Natalia Biscaro*](https://github.com/NataliaBiscaro) 
+[*Natalia Biscaro*](https://github.com/NataliaBiscaro) *https://br.linkedin.com/in/nataliabiscaro*
 
 [*Euclides Rezende*](https://github.com/euclas)
 
