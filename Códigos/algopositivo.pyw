@@ -145,12 +145,29 @@ def analisar() -> None:
         salvar.write(json.dumps(dados_estados, indent=4))
 
 
+def add_anexo(path) -> None:
+    """
+    add_anexo(): Adiciona um arquivo para ser enviado
+    path: Caminho do arquivo
+    :return: None
+    """
+    attachment = open(path, 'rb')
+    index = path.rfind('/') + 1
+    filename = path[index:]
+    part2 = MIMEBase('application', 'octet-stream')
+    part2.set_payload(attachment.read())
+    encoders.encode_base64(part2)
+    part2.add_header('Content-Disposition', f'attachment; filename= {filename}')
+    msg.attach(part2)
+    attachment.close()
+
 def enviar() -> None:
     """
     enviar(): Serve para enviar o arquivo JSON para os enderecos
     de email registrados no banco de dados SQLite3
     :return: None
     """
+    global msg
     conn = sql.connect('Dados/banco.db')
     cursor = conn.cursor()
     cursor.execute('SELECT email FROM emails;')
@@ -175,14 +192,8 @@ def enviar() -> None:
     '''
     part1 = MIMEText(html, 'html')
     msg.attach(part1)
-    attachment = open('Dados/Final/estados.json', 'rb')
-    filename = 'estados.json'
-    part2 = MIMEBase('application', 'octet-stream')
-    part2.set_payload(attachment.read())
-    encoders.encode_base64(part2)
-    part2.add_header('Content-Disposition', f'attachment; filename= {filename}')
-    msg.attach(part2)
-    attachment.close()
+    add_anexo('Dados/Final/estados.json')
+    add_anexo('Dados/Final/NomeDoArquivo') # <--------- coloque aqui o nome do arquivo
     smtp = "smtp.gmail.com"
     server = smtplib.SMTP(smtp, 587)
     server.starttls()
@@ -200,7 +211,7 @@ def main() -> None:
     # tratar()
     analisar()
     enviar()
-        
+
 
 if __name__ == '__main__':
     main()
